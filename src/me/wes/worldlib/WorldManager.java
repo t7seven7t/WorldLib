@@ -23,7 +23,7 @@ import java.util.Map;
  */
 public class WorldManager {
 
-    private Map<Integer, World> worlds = new HashMap<>();
+    private final Map<Integer, World> worlds = new HashMap<>();
 
     WorldManager() {}
 
