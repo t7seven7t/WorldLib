@@ -24,7 +24,7 @@ public class WorldLib {
     private WorldLib() {}
 
     public void enable(JavaPlugin plugin) {
-        Validate.isTrue(enabled, "WorldLib has already been enabled.");
+        Validate.isTrue(!enabled, "WorldLib has already been enabled.");
 
         this.manager = new WorldManager();
         this.fileManager = new FileManager(plugin);
