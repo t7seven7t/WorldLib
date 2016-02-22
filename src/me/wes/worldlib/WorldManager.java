@@ -47,7 +47,6 @@ public class WorldManager {
         if(!worlds.containsValue(Bukkit.getWorld(name))) {
             World w = Bukkit.getServer().createWorld(new WorldCreator(name).type(type));
             worlds.put(worlds.size(), w);
-            loadWorld(name);
         }
     }
 
