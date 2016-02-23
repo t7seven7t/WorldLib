@@ -62,3 +62,7 @@ Either put the source into your project or shade it in with Maven.
 ```
 
 Hope you use this well.
+
+## Licensing
+
+This project is registered under the [MIT License](LICENSE.txt).

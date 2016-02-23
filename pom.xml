@@ -42,7 +42,7 @@
         <repository>
             <id>buildstatic-repo</id>
             <name>BuildStatic Repository</name>
-            <url>sftp://serv.buildstatic.net/maven-repo</url>
+            <url>sftp://serv.buildstatic.net/var/www/html/maven-repo</url>
         </repository>
     </distributionManagement>
 </project>
