@@ -41,4 +41,24 @@ Simple enough, eh? Call `WorldLib#enable(JavaPlugin)` with your main class as th
 ```
 All of these methods are self explanatory. Each one takes a string of the world name as the parameter. These do not need to be called like this either, it is simply showing the methods of WorldManager. You can attempt a creation, deletion, etc of a world as many times as you would like, but it will do nothing if a world with that name already exists.
 
+## Importing
+Either put the source into your project or shade it in with Maven. 
+```xml
+<dependencies>
+    <dependency>
+        <groupId>me.wes</groupId>
+        <artifactId>WorldLib</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+</dependencies>
+
+<repositories>
+    <repository>
+        <id>buildstatic-repo</id>
+        <name>BuildStatic Repository</name>
+        <url>http://buildstatic.net/maven-repo</url>
+    </repository>
+</repositories>
+```
+
 How you use this well.
