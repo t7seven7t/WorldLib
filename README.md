@@ -41,7 +41,7 @@ Simple enough, eh? Call `WorldLib#enable(JavaPlugin)` with your main class as th
 ```
 All of these methods are self explanatory. Each one takes a string of the world name as the parameter. These do not need to be called like this either, it is simply showing the methods of WorldManager. You can attempt a creation, deletion, etc of a world as many times as you would like, but it will do nothing if a world with that name already exists.
 
-## Importing
+### Importing
 Either put the source into your project or shade it in with Maven. 
 ```xml
 <dependencies>
@@ -61,4 +61,4 @@ Either put the source into your project or shade it in with Maven.
 </repositories>
 ```
 
-How you use this well.
+Hope you use this well.
